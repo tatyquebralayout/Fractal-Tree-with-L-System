@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <!-- Define a codificação de caracteres para o documento -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura a viewport para garantir que a página seja renderizada bem em todos os dispositivos -->
+  
+  <title>Árvore Fractal com L-System</title>
+  <!-- Define o título da página, que aparecerá na aba do navegador -->
+  
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Link para o arquivo CSS externo que contém os estilos da página -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <!-- Inclui a biblioteca p5.js, que facilita o desenho e a manipulação de gráficos no canvas -->
+  
+  <script src="js/sketch.js" defer></script>
+  <!-- Inclui o arquivo JavaScript externo que contém o código para desenhar a ilusão.
+       O atributo 'defer' garante que o script será executado após o carregamento completo da página -->
+</head>
+<body>
+  <div class="container">
+    <!-- Div container que centraliza e organiza o conteúdo da página -->
+    
+    <h1>Árvore Fractal com L-System</h1>
+    <!-- Título principal da página -->
+    
+    <div id="canvas-container"></div>
+    <!-- Div que servirá como contêiner para o canvas onde a ilusão será desenhada -->
+    
+    <div class="buttons">
+      <!-- Div para agrupar os botões de ação -->
+      <button id="generate">Gerar Nova Árvore</button>
+      <!-- Botão para gerar uma nova árvore fractal -->
+      <button id="clear">Limpar</button>
+      <!-- Botão para limpar o canvas e recomeçar -->
+    </div>
+  </div>
+</body>
+</html>
