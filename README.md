@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Este projeto mudou de casa.** Agora ele faz parte da galeria [creative-code](https://github.com/tatyquebralayout/creative-code/tree/main/pecas/arvore-fractal), com demo ao vivo e as outras peças. Este repositório fica arquivado só pra não quebrar links antigos.
+>
+> **This project has moved.** It's now part of the [creative-code](https://github.com/tatyquebralayout/creative-code/tree/main/pecas/arvore-fractal) gallery, with a live demo and the other pieces. This repository stays archived only so old links keep working.
+
+
 # Fractal-Tree-with-L-System
 
 Este projeto demonstra como criar uma Árvore Fractal usando um sistema de Lindenmayer (L-System) com a biblioteca p5.js. Um L-System é um método de reescrita recursiva que pode gerar padrões fractais, como uma árvore.
